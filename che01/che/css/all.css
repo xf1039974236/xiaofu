@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS public */
+*{ margin:0; padding:0;}
+img{ border:none 0; -moz-user-select:none;  -webkit-user-select:none;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+ul,li,ol,dl,dt,dd{ list-style:none;}
+i{font-style:normal;}
+b{ font-weight:normal;}
+body { background:#fff;font-family:"microsoft Yahei"; font-size:14px; line-height:1;}
+body a{ font-family:"microsoft Yahei"; outline:none;}
+a{ text-decoration:none; cursor:pointer;}
+a:focus , input:focus{outline:none;}
+a , button  ,input{font-family:"microsoft Yahei";-webkit-tap-highlight-color:transparent;border:none;}
+input[type="button"] , input[type="submit"]{appearance:button;-moz-appearance:button;-webkit-appearance:button;}
+input::-ms-clear,::-ms-reveal{display: none;}
+section,article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block;}
+.clear{ clear:both;}
+.clearfix:after{clear:both;content:'';display:block;visibility:hidden;}
+.mylayer{color:#fff;opacity:0;padding:10px 15px;font-size:16px;background-color:#000;background:rgba(0,0,0,0.5);border-radius:5px;position:fixed;top:50%;left:50%;z-index:999;transition:opacity 0.2s linear;z-index:9999;}
+.overhide{ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
+.innerbox{width:1200px;margin:0 auto;}
+/*top-css*/
+.topbox{background:#fff;}
+.topinner{height:104px;position:relative;}
+.topinner .topleft{float:left;width:435px;}
+.topinner .topright{float:left;width:765px;}
+.topinner .topleft img{display:block;width:229px;height:104px;}
+.topinner .topright li{display:block;float:left;height:60px;padding-top:44px;}
+.topinner .topright li a{display:block;margin:0 25px;height:26px; line-height:26px;font-size:16px;color:#000;}
+.topinner .topright li a:hover{color:#F29600;border-bottom:2px solid #F29600;}
+.topinner .topright li:last-child a{margin-right:0;}
+.topinner .topright li a.on{color:#F29600;border-bottom:2px solid #F29600;}
+
+.iosa-donws{position:absolute;width:290px;padding:12px 0 15px 0;z-index:999;right:0;bottom:-200px;display:none;}
+.iosa-donws .left{float:left;width:140px;}
+.iosa-donws .right{float:right;width:140px;}
+.iosa-donws div img{display:block;width:100%;margin-bottom:14px;}
+.iosa-donws div a{display:block;width:120px;height:31px;margin:0 auto;background:url(../img/a-btn.png) left top no-repeat;background-size:100%;}
+.iosa-donws div .iosbtn{background-image:url(../img/ios-btn.png);}
+
+/*panterbox-css*/
+.panterbox{background:#e0e0e0;}
+.panterbox .innerbox{height:429px;}
+.panterbox h3{height:149px;line-height:149px;font-size:30px;text-align:center;color:#8C8C8C;}
+.panterbox ul li{margin-bottom:46px;}
+.panterbox ul li a{display:block;width:165px;height:70px;float:left;margin-right:42px;}
+.panterbox ul li a:last-child{margin-right:0;}
+.panterbox ul li a img{display:block;width:100%;height:100%;}
+
+/*footer-css*/
+.footerbox{height:273px;background:#202020;}
+.footerbox .innerbox{padding-top:80px;}
+.footerbox .fleft{float:left;width:790px;}
+.footerbox .fright{float:left;width:410px;}
+.footerbox .fleft li{position:relative;float:left;background:url(../img/footer-border.png) right 20px no-repeat;background-size:1px;}
+.footerbox .fleft li:nth-child(1){width:247px;}
+.footerbox .fleft li:nth-child(2){width:267px;}
+.footerbox .fleft li:nth-child(3){width:276px;background:none;}
+.footerbox .fleft li a{display:block;width:98px;height:98px;margin:0 auto;background-image:url(../img/fshareimg.png);background-repeat: no-repeat;background-position:0 0;transform:all 1s;}
+.footerbox .fleft .weiboshare{background-position:-98px 0;}
+.footerbox .fleft .qqshare{background-position:-196px 0;}
+.footerbox .fleft .weixinshare:hover{background-position:0 -98px;}
+.footerbox .fleft .weiboshare:hover{background-position:-98px -98px;}
+.footerbox .fleft .qqshare:hover{background-position:-196px -98px;}
+.footerbox .fleft li p{margin-top:22px;font-size:1px;text-align:center;color:#646464;}
+.footerbox .fright p{font-size: 14px; color:#fff;line-height:2em;}
+.footerbox .fleft .weixin-ewm{display:block;width:145px;height:162px;position:absolute;top: -168px;left: 50px;display:none;}
+.footerbox .fleft .weixinshare:hover ~ .weixin-ewm{display:block;}

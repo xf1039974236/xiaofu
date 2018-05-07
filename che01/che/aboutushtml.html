@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/all.css" />
+		<link rel='stylesheet' href="css/pages.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/include.js"></script>
+		<script type='text/javascript' src='js/scroll-animate.js'></script>
+	</head>
+	<body>
+		<include src='top.html'></include>
+		
+		<div class='aboutusbox'>
+			<img class='bannerimg' src="img/aboutbanner.jpg" />
+		</div>
+		
+		<div class='about-fonts'>
+			<div class='innerbox'>
+				<h3 class='title'>什么是车保宝</h3>
+				<div class='fontbox'>
+					<h3>车保宝信息技术咨询（北京）有限公司创建于2017年，创始人团队均具有10年以上互联网背景，对互联网产品、技术、市场以及用户体验和大数据处理有着非常丰厚的经验。车保宝励志成为汽车服务行业的知名平台，通过车主消费服务B2B业务为起点，逐渐建立一个以整合线下洗车、美容到线上的优惠洗车、优惠加油、优惠买车险等服务模块的优惠平台，车保宝业务模式的建立将使得车主的消费服务更加便捷，更加实惠，同时让线下的洗车、车美容等服务商家成本减少，在合理的配置人力、场地、车主的主动消费等得到很大提升的基础上，车保宝携手汽车后市场服务商，共建车生活移动互联生态圈。车保宝重点整合互联网思维、金融思维、平台思维，整合传媒业、金融业、培训业优势资源，以专业视角创建一个真实流量及车主、商家相对对等的服务平台，打造一个亿万汽车用户的移动车服互联生态圈。</h3>
+					<h3>车保宝着力铸造独特的互联网商业闭环，并不断为产业链上下游创造共同价值，让汽车用品生产商、汽修美容服务行业、广告投放商、汽车用户等参与各方互生互惠，从而在面对这样的一个庞大市场的时候共赢先机。</h3>
+				</div>
+			</div>
+		</div>
+		
+		<div class='help-carbox'>
+			<div class='innerbox'>
+				<dl class='clearfix'>
+					<dt>
+						<img src='img/helpcarimg.jpg' />
+					</dt>
+					<dd>
+						<h3>什么是帮车惠</h3>
+						<p>帮车惠是车保宝自主研发的一款连接车主及商家的APP应用软件，产品主要功能包括附近加油在线支付、洗车美容折扣、积分商城等，只要使用帮车惠均可享受一定优惠。帮车惠以用户为中心，把线下资源和线上资源有机结合起来，改变了传统的车后服务市场。</p>
+						<p>随着用户的刚性需求越来越高，对时间上和空间上的成本控制也日益凸显。帮车惠面对这样的一个庞大市场，以完善的模块结合，满足了实际的用户需求对接；依托硬件技术、移动互联网技术以及各种云技术的大数据输出，帮车惠使车后服务具有了更旺盛的生命力。在打通线上线下的同时，帮车惠成熟的操作运营模式丰富了具体的应用场景模式。帮车惠带来的变革不仅仅是简单的加油方式或者单一洗车模式的改变，更多的是移动互联网B2B模式被广大用户的认可和支持。在新的契机面前，帮车惠将实现产业优势互补及商业价值的共同繁荣。 </p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		
+		<div class='panterbox'>
+			<div class='innerbox'>
+				<h3>合作伙伴</h3>
+				<ul>
+					<li class='clearfix'>
+						<a href="javascript:void(0)"><img src="img/panterimgs1.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs2.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs3.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs4.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs5.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs6.jpg"/></a>
+					</li>
+					<li class='clearfix'>
+						<a href="javascript:void(0)"><img src="img/panterimgs7.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs8.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs9.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs10.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs11.jpg"/></a>
+						<a href="javascript:void(0)"><img src="img/panterimgs12.jpg"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<include src='footer.html'></include>
+		
+		<script type='text/javascript'>
+			function aminaFun(){
+				//index.html
+			  animateFun({
+		      box :'.bannerimg',
+		      cssname :'bannerimgon',
+		      elem: '.bannerimg',
+		      num :100
+		    });
+		    animateFun({
+		      box :'.innerbox .title',
+		      cssname :'titleon',
+		      elem: '.innerbox .title',
+		      num :-200
+		    });
+		    animateFun({
+		      box :'.panterbox ul a',
+		      cssname :'stretchRight',
+		      elem: '.panterbox ul a',
+		      num :270
+		    });
+		    animateFun({
+		      box :'.about-fonts',
+		      cssname :'slideLeft',
+		      elem: '.about-fonts',
+		      num :1000
+		    });
+		    animateFun({
+		      box :'.help-carbox',
+		      cssname :'slideRight',
+		      elem: '.help-carbox',
+		      num :1000
+		    });
+			};
+			$(window).load(function(){
+				$('.topbox .topright a').removeClass('on');
+				$('.topbox .topright a.aboutus').addClass('on');
+				aminaFun();
+				$(window).scroll(function(){
+				  aminaFun();
+				});
+			});
+		</script>
+	</body>
+</html>
